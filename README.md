@@ -26,4 +26,13 @@ Pulsars discoveries in archive data
 |17|J1843-0524t|18:43:46.53|-05:24:46.25|0.038283835 |256.80  |Yes| No  |?  |2025-10-06|2025-10-06|ZD2022_6   |19C133_J1843-05G2|M03on |2022-09-26 19:35:30| 19C134_J1844-05G1-P2-M12 confirmed|
 |18|J1839-0551t|18:39:20.00|-05:51:45.48|1.1740705   |59.795  |Yes| Yes |?  |2025-10-07|2025-10-07|PT2023_0002|RSGC2            |M17|2023-10-30 16:06:00|not yet|
 |19|J1832-0901t|18:32:46.50|-09:01:09.58|0.02968868  |235.20  |Yes| No  |No |2025-11-12|2025-11-12|PT2024_0071|LPRT_1           |M17|2024-10-11 17:22:52|not yet|
+
+
+## (2) Decl -5 deg to 0 deg, |b|<-5 deg
+
+| PSR ID | PSRJ | RA | DEC | P0 | DM | FFT | FFA | SP| discovery date | online date |PID|Source Name|beamID|OBS date|Confirmed?|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
+| |           |hh:mm:ss.ss| dd:mm:ss.ss| second      | pc/cc  |   |     |   |YYYY-MM-DD|YYYY-MM-DD|           |                 |MBB|YYYY-MM-DD HH:MM:SS ||
+|1|J1846-0253|18:46:59.42|-02:53:31.81|1.340458|1269|Yes|Yes|?|2025-12-12|2025-12-12|PT2023_0176|PSRJ1846-0258|M19|2024-04-08|?|
+
 ## (2)  Pulsar discoveries with GBT
