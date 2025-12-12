@@ -1,7 +1,7 @@
 # PulsarGleaners
 Pulsars discoveries in archive data
 
-## (1) Pulsar discoveries with FAST
+## (1) Pulsar discoveries with FAST, Decl < -5 deg, |b| < -5 deg
 
 
 | PSR ID | PSRJ | RA | DEC | P0 | DM | FFT | FFA | SP| discovery date | online date |PID|Source Name|beamID|OBS date|Confirmed?|
@@ -28,7 +28,7 @@ Pulsars discoveries in archive data
 |19|J1832-0901t|18:32:46.50|-09:01:09.58|0.02968868  |235.20  |Yes| No  |No |2025-11-12|2025-11-12|PT2024_0071|LPRT_1           |M17|2024-10-11 17:22:52|not yet|
 
 
-## (2) Decl -5 deg to 0 deg, |b|<-5 deg
+## (2) Pulsar discoveries with FAST, Decl -5 deg to 0 deg, |b| < -5 deg
 
 | PSR ID | PSRJ | RA | DEC | P0 | DM | FFT | FFA | SP| discovery date | online date |PID|Source Name|beamID|OBS date|Confirmed?|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
