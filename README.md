@@ -33,6 +33,6 @@ Pulsars discoveries in archive data
 | PSR ID | PSRJ | RA | DEC | P0 | DM | FFT | FFA | SP| discovery date | online date |PID|Source Name|beamID|OBS date|Confirmed?|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
 | |           |hh:mm:ss.ss| dd:mm:ss.ss| second      | pc/cc  |   |     |   |YYYY-MM-DD|YYYY-MM-DD|           |                 |MBB|YYYY-MM-DD HH:MM:SS ||
-|1|J1846-0253|18:46:59.42|-02:53:31.81|1.340458|1269|Yes|Yes|?|2025-12-12|2025-12-12|PT2023_0176|PSRJ1846-0258|M19|2024-04-08|?|
+|1|J1846-0253|18:46:59.42|-02:53:31.81|1.340458|1269|Yes|Yes|No|2025-12-12|2025-12-12|PT2023_0176|PSRJ1846-0258|M19|2024-04-08|2nd archive data, 20240221|
 
 ## (2)  Pulsar discoveries with GBT
