@@ -4,9 +4,9 @@ Pulsars discoveries in archive data
 ## (1) Pulsar discoveries with FAST, Decl < -5 deg, |b| < -5 deg
 
 
-| PSR ID | PSRJ | RA | DEC | P0 | DM | FFT | FFA | SP| discovery date | online date |PID|Source Name|beamID|OBS date|Confirmed?|
+| PSR ID | PSRJ | RA (beam center)| DEC (beam center) | P0 | DM | FFT | FFA | SP| discovery date | online date |PID|Source Name|beamID|OBS date|Confirmed?|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
-| |           |hh:mm:ss.ss| dd:mm:ss.ss| second      | pc/cc  |   |     |   |YYYY-MM-DD|YYYY-MM-DD|           |                 |MBB|YYYY-MM-DD HH:MM:SS ||
+| |           |hh:mm:ss.ss| dd:mm:ss.ss| second      | pc/cc  |   |     |   |||           |                 ||||
 |1|J1836-0552t|18:36:02.26|-05:52:50.07|5.5533955650 | 346.40 | No| Yes |Yes|2025-05-25|2025-09-27|PT2020_0084|G25.81_G26.00    |M19on|2021-02-19 08:41:00|not yet|
 |2|J1846-0512t|18:46:40.06|-05:12:17.97|0.2753100    |207.52  |Yes| Yes |Yes|2025-08-10|2025-09-27|ZD2020_6   |19C113_J1846-05N2|M02|2021-07-31 23:43:30|yes, 19C111_J1846-0500_M10|
 |3|J1822-0933t|18:22:17.08|-09:33:58.23|0.3155417    |356.62  |Yes| Yes |No |2025-09-16|2025-09-27|PT2022_0134|1819-096         |M06|2022-12-12 13:30:00|yes, 2nd archive data|
@@ -30,7 +30,7 @@ Pulsars discoveries in archive data
 
 ## (2) Pulsar discoveries with FAST, Decl -5 deg to 0 deg, |b| < -5 deg
 
-| PSR ID | PSRJ | RA | DEC | P0 | DM | FFT | FFA | SP| discovery date | online date |PID|Source Name|beamID|OBS date|Confirmed?|
+| PSR ID | PSRJ | RA (beam center)| DEC (beam center) | P0 | DM | FFT | FFA | SP| discovery date | online date |PID|Source Name|beamID|OBS date|Confirmed?|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
 | |           |hh:mm:ss.ss| dd:mm:ss.ss| second      | pc/cc  |   |     |   |YYYY-MM-DD|YYYY-MM-DD|           |                 |MBB|YYYY-MM-DD HH:MM:SS ||
-|1|J1846-0253|18:46:59.42|-02:53:31.81|1.340458|1269|Yes|Yes|No|2025-12-12|2025-12-12|PT2023_0176|PSRJ1846-0258|M19|2024-04-08|2nd archive data, 20240221|
+|1|J1846-0253t|18:46:59.42|-02:53:31.81|1.340458|1269|Yes|Yes|No|2025-12-12|2025-12-12|PT2023_0176|PSRJ1846-0258|M19|2024-04-08|2nd archive data, 20240221|
