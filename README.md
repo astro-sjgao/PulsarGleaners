@@ -3,6 +3,7 @@ Pulsars discoveries in archive data
 
 ## (1) Pulsar discoveries with FAST, Decl < -5 deg, |b| < -5 deg
 
+A preliminary phase-connected timing solution was obtained for J1846-0512t due to the fortuitous circumstance that this pulsar was detected in a different beam during the timing observations of another pulsar. As a result, the source name should be updated from J1846$-$0512t to J1846$-$0511.
 
 | PSR ID | PSRJ | RA (beam center)| DEC (beam center) | P0 | DM | FFT | FFA | SP| discovery date | online date |PID|Source Name|beamID|OBS date|Confirmed?|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
