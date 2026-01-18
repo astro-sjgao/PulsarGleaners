@@ -1,5 +1,5 @@
 # PulsarGleaners
-Pulsars discoveries in archive data
+Pulsar discoveries in archive data
 
 ## (1) Pulsar discoveries with FAST, Decl < -5 deg, |b| < -5 deg
 
