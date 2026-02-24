@@ -1,7 +1,7 @@
 # PulsarGleaners
 Pulsar discoveries in archive data
 
-## (1) Pulsar discoveries with FAST, Decl < -5 deg, |b| < -5 deg
+## Pulsar discoveries with FAST
 
 A preliminary phase-connected timing solution was obtained for J1846-0512t due to the fortuitous circumstance that this pulsar was detected in a different beam during the timing observations of another pulsar. As a result, the source name should be updated from J1846-0512t to J1846-0511.
 
@@ -27,15 +27,8 @@ A preliminary phase-connected timing solution was obtained for J1846-0512t due t
 |17|J1843-0524t|18:43:46.53|-05:24:46.25|0.038283835 |256.80  |Yes| No  |No |2025-10-06|2025-10-06|ZD2022_6   |19C133_J1843-05G2|M03on |2022-09-26 19:35:30| 19C134_J1844-05G1-P2-M12 confirmed|
 |18|J1839-0551t|18:39:20.00|-05:51:45.48|1.1740705   |59.795  |Yes| Yes |No |2025-10-07|2025-10-07|PT2023_0002|RSGC2            |M17|2023-10-30 16:06:00|not yet|
 |19|J1832-0901t|18:32:46.50|-09:01:09.58|0.02968868  |235.20  |Yes| No  |No |2025-11-12|2025-11-12|PT2024_0071|LPRT_1           |M17|2024-10-11 17:22:52|yes, 2nd|
-
-
-## (2) Pulsar discoveries with FAST, Decl -5 deg to 0 deg, |b| < -5 deg
-
-| PSR ID | PSRJ | RA (beam center)| DEC (beam center) | P0 | DM | FFT | FFA | SP| discovery date | online date |PID|Source Name|beamID|OBS date|Confirmed?|
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
-| |           |hh:mm:ss.ss| dd:mm:ss.ss| second      | pc/cc  |   |     |   |||           |                 ||||
-|1|J1846-0253t|18:46:59.42|-02:53:31.81|1.340458|1269|Yes|Yes|No|2025-12-12|2025-12-12|PT2023_0176|PSRJ1846-0258|M19|2024-04-08|2nd archive data, 20240221|
-|2|J1839-0428t|18:39:38.38|-04:28:58.25|0.335938|343 |No |Yes|No|2026-01-05|2026-01-05|PT2024_0141|G27.8+0.6    |M04|2024-09-29||
-|3|J1839-0423t|18:39:03.84|-04:23:59.91|0.37427056|585|Yes|Yes|No|2026-01-06|2026-01-06|PT2024_0141|G27.8+0.6    |M14|2024-09-29||
-|4|J1844-0301t|18:44:48.51|-03:01:03.71|0.9963165|571|No|Yes|Yes|2026-01-15|2026-01-15|PT2024_0029|J1845-0306    |M15|2024-10-06|confirmed|
-|5|J1829-0455t|18:29:35.00|-04:55:04.48|0.97467  |365|No|Yes|No|2026-01-16|2026-01-16|PT2020_0020|19C8|M17|2021-02-22||
+|20|J1846-0253t|18:46:59.42|-02:53:31.81|1.340458|1269|Yes|Yes|No|2025-12-12|2025-12-12|PT2023_0176|PSRJ1846-0258|M19|2024-04-08|2nd archive data, 20240221|
+|21|J1839-0428t|18:39:38.38|-04:28:58.25|0.335938|343 |No |Yes|No|2026-01-05|2026-01-05|PT2024_0141|G27.8+0.6    |M04|2024-09-29||
+|22|J1839-0423t|18:39:03.84|-04:23:59.91|0.37427056|585|Yes|Yes|No|2026-01-06|2026-01-06|PT2024_0141|G27.8+0.6    |M14|2024-09-29||
+|23|J1844-0301t|18:44:48.51|-03:01:03.71|0.9963165|571|No|Yes|Yes|2026-01-15|2026-01-15|PT2024_0029|J1845-0306    |M15|2024-10-06|confirmed|
+|24|J1829-0455t|18:29:35.00|-04:55:04.48|0.97467  |365|No|Yes|No|2026-01-16|2026-01-16|PT2020_0020|19C8|M17|2021-02-22||
