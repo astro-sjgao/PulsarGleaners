@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PulsarGleaners</title>
+  <title>Pulsar Gleaners</title>
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -13,19 +13,28 @@
       line-height: 1.5;
       color: #222;
     }
+
     h1 {
       margin-bottom: 0.2em;
     }
+
     .subtitle {
       color: #555;
       margin-top: 0;
+      margin-bottom: 14px;
     }
+
+    p {
+      max-width: 950px;
+    }
+
     .stats {
       display: flex;
       gap: 12px;
       flex-wrap: wrap;
       margin: 20px 0 18px;
     }
+
     .card {
       border: 1px solid #ddd;
       border-radius: 10px;
@@ -33,34 +42,73 @@
       min-width: 150px;
       background: #fafafa;
     }
+
     .note {
       background: #f7f7f7;
       border-left: 4px solid #999;
       padding: 10px 12px;
       margin: 14px 0;
     }
+
+    .github-box {
+      background: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin: 14px 0 18px;
+      max-width: 950px;
+    }
+
+    .github-link {
+      display: inline-block;
+      padding: 6px 10px;
+      background: #24292e;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    .github-link:hover {
+      background: #000;
+    }
+
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 18px;
       font-size: 14px;
     }
+
     th, td {
       border: 1px solid #ddd;
       padding: 8px 10px;
       text-align: left;
       vertical-align: top;
     }
+
     th {
       background: #f2f2f2;
       position: sticky;
       top: 0;
     }
+
+    tr:nth-child(even) {
+      background: #fbfbfb;
+    }
+
+    th:first-child, td:first-child {
+      width: 52px;
+      text-align: right;
+    }
+
     code {
       background: #f1f1f1;
       padding: 2px 6px;
       border-radius: 6px;
     }
+
     .footer {
       margin-top: 20px;
       color: #666;
@@ -69,8 +117,31 @@
   </style>
 </head>
 <body>
-  <h1>PulsarGleaners</h1>
+  <h1>Pulsar Gleaners</h1>
   <p class="subtitle">Pulsar discoveries and candidates identified from public archive data.</p>
+
+  <p>
+    Pulsar Gleaners is a pulsar search project based on publicly available FAST observations.
+    Some pulsars were detected in observations originally obtained for other scientific purposes or in non-central beams.
+    This project aims to fully exploit the scientific potential of archival FAST data through reprocessing and dedicated pulsar search techniques.
+  </p>
+
+  <div class="github-box">
+    <strong>Project repository and data products</strong><br>
+    <a class="github-link" href="https://github.com/astro-sjgao/PulsarGleaners" target="_blank">
+      View on GitHub
+    </a>
+    <p>
+      The repository includes folded data diagnostic plots (<code>fold/</code>) and timing solutions
+      (<code>.par</code> and <code>.tim</code> files) for some pulsars.
+    </p>
+  </div>
+
+  <p>
+    This work is based on archival data from the Five-hundred-meter Aperture Spherical radio Telescope (FAST).
+    We gratefully acknowledge all FAST project PIs who made the original observations publicly available.
+    This project is entirely based on archival data products and demonstrates the additional scientific return enabled by archival data reuse.
+  </p>
 
   <div class="stats">
     <div class="card"><strong>Total Pulsars</strong><br>28</div>
@@ -580,6 +651,6 @@
     </tbody>
   </table>
 
-  <p class="footer">Last generated: 2026-04-01 06:39 UTC</p>
+  <p class="footer">Last generated: 2026-04-01 07:10 UTC</p>
 </body>
 </html>
