@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PulsarGleaners</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 1280px;
+      margin: 36px auto;
+      padding: 0 20px 40px;
+      line-height: 1.5;
+      color: #222;
+    }
+    h1 {
+      margin-bottom: 0.2em;
+    }
+    .subtitle {
+      color: #555;
+      margin-top: 0;
+    }
+    .stats {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 20px 0 18px;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 12px 16px;
+      min-width: 150px;
+      background: #fafafa;
+    }
+    .note {
+      background: #f7f7f7;
+      border-left: 4px solid #999;
+      padding: 10px 12px;
+      margin: 14px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 18px;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: #f2f2f2;
+      position: sticky;
+      top: 0;
+    }
+    code {
+      background: #f1f1f1;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+    .footer {
+      margin-top: 20px;
+      color: #666;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <h1>PulsarGleaners</h1>
+  <p class="subtitle">Pulsar discoveries and candidates identified from public archive data.</p>
+
+  <div class="stats">
+    <div class="card"><strong>Total Pulsars</strong><br>28</div>
+  </div>
+
+  <div class="note">
+    Coordinates listed here are beam-center coordinates. Names ending with <code>t</code> are provisional unless otherwise noted.
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>PSRJ</th>
+        <th>RA</th>
+        <th>DEC</th>
+        <th>P0 (s)</th>
+        <th>DM</th>
+        <th>Detection</th>
+        <th>Discovery date</th>
+        <th>Project ID</th>
+        <th>Source Name</th>
+        <th>Beam ID</th>
+        <th>Obs date</th>
+        <th>Status</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    <tr>
+      <td>1</td>
+      <td>J1836-0552t</td>
+      <td>18:36:02.26</td>
+      <td>-05:52:50.07</td>
+      <td>5.5533955650</td>
+      <td>346.40</td>
+      <td>FFA, SP</td>
+      <td>2025-05-25</td>
+      <td>PT2020_0084</td>
+      <td>G25.81_G26.00</td>
+      <td>M19on</td>
+      <td>2021-02-19 08:41:00</td>
+      <td>candidate</td>
+      <td>not yet</td>
+    </tr>
+    
+    <tr>
+      <td>2</td>
+      <td>J1846-0512t</td>
+      <td>18:46:40.06</td>
+      <td>-05:12:17.97</td>
+      <td>0.2753100</td>
+      <td>207.52</td>
+      <td>FFT, FFA, SP</td>
+      <td>2025-08-10</td>
+      <td>ZD2020_6</td>
+      <td>19C113_J1846-05N2</td>
+      <td>M02</td>
+      <td>2021-07-31 23:43:30</td>
+      <td>confirmed</td>
+      <td>confirmed in 19C111_J1846-0500_M10; preliminary timing solution suggests rename to J1846-0511</td>
+    </tr>
+    
+    <tr>
+      <td>3</td>
+      <td>J1822-0933t</td>
+      <td>18:22:17.08</td>
+      <td>-09:33:58.23</td>
+      <td>0.3155417</td>
+      <td>356.62</td>
+      <td>FFT, FFA</td>
+      <td>2025-09-16</td>
+      <td>PT2022_0134</td>
+      <td>1819-096</td>
+      <td>M06</td>
+      <td>2022-12-12 13:30:00</td>
+      <td>confirmed</td>
+      <td>2nd archive data</td>
+    </tr>
+    
+    <tr>
+      <td>4</td>
+      <td>J1839-0558t</td>
+      <td>18:39:08.45</td>
+      <td>-05:58:45.25</td>
+      <td>1.925928</td>
+      <td>1248.28</td>
+      <td>FFT, FFA</td>
+      <td>2025-09-17</td>
+      <td>PT2021_0044</td>
+      <td>3FHL_J1839.4-0553</td>
+      <td>M04</td>
+      <td>2022-02-22 09:31:00</td>
+      <td>candidate</td>
+      <td>not yet</td>
+    </tr>
+    
+    <tr>
+      <td>5</td>
+      <td>J1854-0654t</td>
+      <td>18:54:00.09</td>
+      <td>-06:54:24.08</td>
+      <td>1.38057</td>
+      <td>304.41</td>
+      <td>FFT, FFA</td>
+      <td>2025-09-25</td>
+      <td>PT2021_0081</td>
+      <td>J1853-0649</td>
+      <td>M09</td>
+      <td>2022-01-14 12:28:00</td>
+      <td>candidate</td>
+      <td>not yet</td>
+    </tr>
+    
+    <tr>
+      <td>6</td>
+      <td>J1823-1345t</td>
+      <td>18:23:31.50</td>
+      <td>-13:45:06.64</td>
+      <td>0.4677064</td>
+      <td>1113.20</td>
+      <td>FFT, FFA</td>
+      <td>2025-09-26</td>
+      <td>PT2023_0192</td>
+      <td>Mercer_5</td>
+      <td>M03</td>
+      <td>2023-12-21 13:08:00</td>
+      <td>confirmed</td>
+      <td>2nd archive data</td>
+    </tr>
+    
+    <tr>
+      <td>7</td>
+      <td>J1825-0945t</td>
+      <td>18:25:53.90</td>
+      <td>-09:45:17.67</td>
+      <td>2.3004745</td>
+      <td>533.42</td>
+      <td>FFA</td>
+      <td>2025-09-27</td>
+      <td>PT2023_0158</td>
+      <td>PSRJ1825-0935</td>
+      <td>M10</td>
+      <td>2023-10-22 16:50:00</td>
+      <td>confirmed</td>
+      <td>2nd archive data</td>
+    </tr>
+    
+    <tr>
+      <td>8</td>
+      <td>J1844-0523t</td>
+      <td>18:44:14.00</td>
+      <td>-05:23:54.52</td>
+      <td>1.281117035</td>
+      <td>405.20</td>
+      <td>FFA</td>
+      <td>2025-09-30</td>
+      <td>ZD2022_6</td>
+      <td>19C134_J1844-05G1</td>
+      <td>M11off</td>
+      <td>2022-09-26 19:56:00</td>
+      <td>candidate</td>
+      <td>not yet</td>
+    </tr>
+    
+    <tr>
+      <td>9</td>
+      <td>J1837-0643t</td>
+      <td>18:37:58.00</td>
+      <td>-06:43:03.48</td>
+      <td>2.0489171</td>
+      <td>712.20</td>
+      <td>FFT, FFA</td>
+      <td>2025-09-30</td>
+      <td>PT2023_0002</td>
+      <td>RSGC1</td>
+      <td>M17</td>
+      <td>2023-10-14 17:08:00</td>
+      <td>candidate</td>
+      <td>not yet</td>
+    </tr>
+    
+    <tr>
+      <td>10</td>
+      <td>J1838-0643t</td>
+      <td>18:38:21.12</td>
+      <td>-06:43:03.45</td>
+      <td>3.369859</td>
+      <td>546.34</td>
+      <td>FFT, FFA</td>
+      <td>2025-09-30</td>
+      <td>PT2023_0002</td>
+      <td>RSGC1</td>
+      <td>M18</td>
+      <td>2023-10-14 17:08:00</td>
+      <td>candidate</td>
+      <td>not yet</td>
+    </tr>
+    
+    <tr>
+      <td>11</td>
+      <td>J1843-0508t</td>
+      <td>18:43:51.42</td>
+      <td>-05:08:59.68</td>
+      <td>0.2515196</td>
+      <td>165.174</td>
+      <td>FFT, FFA</td>
+      <td>2025-09-30</td>
+      <td>ZD2022_6</td>
+      <td>19C134_J1844-05G2</td>
+      <td>M15on</td>
+      <td>2022-09-26 20:09:30</td>
+      <td>confirmed</td>
+      <td>confirmed in 19C133_J1843-05G1-P2-M18</td>
+    </tr>
+    
+    <tr>
+      <td>12</td>
+      <td>J1839-0611t</td>
+      <td>18:39:43.09</td>
+      <td>-06:11:38.49</td>
+      <td>4.951576</td>
+      <td>877.432</td>
+      <td>FFT, FFA</td>
+      <td>2025-10-01</td>
+      <td>PT2023_0002</td>
+      <td>RSGC2</td>
+      <td>M10</td>
+      <td>2023-10-30 16:06:00</td>
+      <td>candidate</td>
+      <td>not yet</td>
+    </tr>
+    
+    <tr>
+      <td>13</td>
+      <td>J1847-0624t</td>
+      <td>18:47:48.45</td>
+      <td>-06:24:28.73</td>
+      <td>0.1877699</td>
+      <td>388.153</td>
+      <td>FFA, SP</td>
+      <td>2025-10-04</td>
+      <td>ZD2022_6</td>
+      <td>19C132_J1847-06G2</td>
+      <td>M06off</td>
+      <td>2022-09-26 20:43:30</td>
+      <td>candidate</td>
+      <td>not yet</td>
+    </tr>
+    
+    <tr>
+      <td>14</td>
+      <td>J1838-0601t</td>
+      <td>18:38:33.82</td>
+      <td>-06:01:41.88</td>
+      <td>1.018453321</td>
+      <td>1217.20</td>
+      <td>FFT, FFA</td>
+      <td>2025-10-04</td>
+      <td>PT2023_0002</td>
+      <td>RSGC2</td>
+      <td>M14</td>
+      <td>2023-10-30 16:06:00</td>
+      <td>candidate</td>
+      <td>not yet</td>
+    </tr>
+    
+    <tr>
+      <td>15</td>
+      <td>J1838-0601t2</td>
+      <td>18:38:56.91</td>
+      <td>-06:01:41.97</td>
+      <td>1.9258932</td>
+      <td>1161.20</td>
+      <td>FFT, FFA</td>
+      <td>2025-10-05</td>
+      <td>PT2023_0002</td>
+      <td>RSGC2</td>
+      <td>M05</td>
+      <td>2023-10-30 16:06:00</td>
+      <td>candidate</td>
+      <td>not yet</td>
+    </tr>
+    
+    <tr>
+      <td>16</td>
+      <td>J1843-0514t</td>
+      <td>18:43:11.47</td>
+      <td>-05:14:49.73</td>
+      <td>2.470040812</td>
+      <td>789.20</td>
+      <td>FFA</td>
+      <td>2025-10-06</td>
+      <td>ZD2022_6</td>
+      <td>19C133_J1843-05G1</td>
+      <td>M06off</td>
+      <td>2022-09-26 19:22:00</td>
+      <td>candidate</td>
+      <td>not yet</td>
+    </tr>
+    
+    <tr>
+      <td>17</td>
+      <td>J1843-0524t</td>
+      <td>18:43:46.53</td>
+      <td>-05:24:46.25</td>
+      <td>0.038283835</td>
+      <td>256.80</td>
+      <td>FFT</td>
+      <td>2025-10-06</td>
+      <td>ZD2022_6</td>
+      <td>19C133_J1843-05G2</td>
+      <td>M03on</td>
+      <td>2022-09-26 19:35:30</td>
+      <td>confirmed</td>
+      <td>confirmed in 19C134_J1844-05G1-P2-M12</td>
+    </tr>
+    
+    <tr>
+      <td>18</td>
+      <td>J1839-0551t</td>
+      <td>18:39:20.00</td>
+      <td>-05:51:45.48</td>
+      <td>1.1740705</td>
+      <td>59.795</td>
+      <td>FFT, FFA</td>
+      <td>2025-10-07</td>
+      <td>PT2023_0002</td>
+      <td>RSGC2</td>
+      <td>M17</td>
+      <td>2023-10-30 16:06:00</td>
+      <td>candidate</td>
+      <td>not yet</td>
+    </tr>
+    
+    <tr>
+      <td>19</td>
+      <td>J1832-0901t</td>
+      <td>18:32:46.50</td>
+      <td>-09:01:09.58</td>
+      <td>0.02968868</td>
+      <td>235.20</td>
+      <td>FFT</td>
+      <td>2025-11-12</td>
+      <td>PT2024_0071</td>
+      <td>LPRT_1</td>
+      <td>M17</td>
+      <td>2024-10-11 17:22:52</td>
+      <td>confirmed</td>
+      <td>2nd</td>
+    </tr>
+    
+    <tr>
+      <td>20</td>
+      <td>J1846-0253t</td>
+      <td>18:46:59.42</td>
+      <td>-02:53:31.81</td>
+      <td>1.340458</td>
+      <td>1269</td>
+      <td>FFT, FFA</td>
+      <td>2025-12-12</td>
+      <td>PT2023_0176</td>
+      <td>PSRJ1846-0258</td>
+      <td>M19</td>
+      <td>2024-04-08</td>
+      <td>confirmed</td>
+      <td>2nd archive data; 20240221</td>
+    </tr>
+    
+    <tr>
+      <td>21</td>
+      <td>J1839-0428t</td>
+      <td>18:39:38.38</td>
+      <td>-04:28:58.25</td>
+      <td>0.335938</td>
+      <td>343</td>
+      <td>FFA</td>
+      <td>2026-01-05</td>
+      <td>PT2024_0141</td>
+      <td>G27.8+0.6</td>
+      <td>M04</td>
+      <td>2024-09-29</td>
+      <td>candidate</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td>22</td>
+      <td>J1839-0423t</td>
+      <td>18:39:03.84</td>
+      <td>-04:23:59.91</td>
+      <td>0.37427056</td>
+      <td>585</td>
+      <td>FFT, FFA</td>
+      <td>2026-01-06</td>
+      <td>PT2024_0141</td>
+      <td>G27.8+0.6</td>
+      <td>M14</td>
+      <td>2024-09-29</td>
+      <td>candidate</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td>23</td>
+      <td>J1844-0301t</td>
+      <td>18:44:48.51</td>
+      <td>-03:01:03.71</td>
+      <td>0.9963165</td>
+      <td>571</td>
+      <td>FFA, SP</td>
+      <td>2026-01-15</td>
+      <td>PT2024_0029</td>
+      <td>J1845-0306</td>
+      <td>M15</td>
+      <td>2024-10-06</td>
+      <td>confirmed</td>
+      <td>confirmed</td>
+    </tr>
+    
+    <tr>
+      <td>24</td>
+      <td>J1829-0455t</td>
+      <td>18:29:35.00</td>
+      <td>-04:55:04.48</td>
+      <td>0.97467</td>
+      <td>365</td>
+      <td>FFA</td>
+      <td>2026-01-16</td>
+      <td>PT2020_0020</td>
+      <td>19C8</td>
+      <td>M17</td>
+      <td>2021-02-22</td>
+      <td>candidate</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td>25</td>
+      <td>J1904-0639t</td>
+      <td>19:04:40.12</td>
+      <td>-06:39:01.97</td>
+      <td>3.1576351</td>
+      <td>185.6</td>
+      <td>FFA</td>
+      <td>2026-02-13</td>
+      <td>ZD2020_6</td>
+      <td>C77_J1904-0641N1</td>
+      <td>M02off</td>
+      <td>2020-12-16</td>
+      <td>candidate</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td>26</td>
+      <td>J1805-0735t</td>
+      <td>18:05:36.33</td>
+      <td>-07:35:08.95</td>
+      <td>0.060590714</td>
+      <td>171.2</td>
+      <td>FFT, FFA</td>
+      <td>2026-03-08</td>
+      <td>PT2024_0157</td>
+      <td>NGC6539</td>
+      <td>M08</td>
+      <td>2024-10-09</td>
+      <td>candidate</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td>27</td>
+      <td>J1748-1300t</td>
+      <td>17:48:40.97</td>
+      <td>-13:00:51.93</td>
+      <td>0.2060155</td>
+      <td>155.3</td>
+      <td>FFT</td>
+      <td>2026-03-31</td>
+      <td>PT2024_0107</td>
+      <td>J1748-1300</td>
+      <td>M02</td>
+      <td>2025-01-27</td>
+      <td>candidate</td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td>28</td>
+      <td>J1734-0724t</td>
+      <td>17:34:18.59</td>
+      <td>-07:24:51.95</td>
+      <td>0.3252789</td>
+      <td>75.5</td>
+      <td>FFA, SP</td>
+      <td>2026-04-01</td>
+      <td>PT2024_0107</td>
+      <td>J1735-0724</td>
+      <td>M14</td>
+      <td>2025-01-27</td>
+      <td>candidate</td>
+      <td></td>
+    </tr>
+    
+    </tbody>
+  </table>
+
+  <p class="footer">Last generated: 2026-04-01 06:17 UTC</p>
+</body>
+</html>
