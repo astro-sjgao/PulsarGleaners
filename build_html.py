@@ -172,7 +172,7 @@ html = f"""<!DOCTYPE html>
 </head>
 <body>
   <h1>Pulsar Gleaners</h1>
-  <p class="subtitle">Pulsar discoveries and candidates identified from public archive data.</p>
+  <p class="subtitle">Pulsar discoveries from public archive data.</p>
 
   <p>
     Pulsar Gleaners is a pulsar search project based on publicly available FAST observations.
